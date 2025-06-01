@@ -1,0 +1,7972 @@
+[
+  {
+    "name": "add",
+    "params": [
+      "Array",
+      "Values"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "add",
+    "params": [
+      "Array",
+      "Index",
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "at",
+    "params": [
+      "ArrayValue",
+      "Index"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "contains",
+    "params": [
+      "ArrayValue",
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "first",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "indexOf",
+    "params": [
+      "ArrayValue",
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isEmpty",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "keys",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "last",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "order",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "order",
+    "params": [
+      "RefContainer",
+      "Expression"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "ArrayValue",
+      "LeftIndex",
+      "RightIndex"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "size",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "ArrayValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "catch",
+    "params": [
+      "Check",
+      "Alternative"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "Condition",
+      "CaseNegative",
+      "CaseZero",
+      "CasePositive"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "Condition",
+      "CaseTrue",
+      "CaseFalse"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "Check",
+      "Alternative"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNull",
+    "params": [
+      "Check",
+      "Alternative"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "throw",
+    "params": [
+      "Message"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "addDuration",
+    "params": [
+      "StartDate",
+      "BusinessDays"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateAmPm",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDate",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDay",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDayOfYear",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDSTOffset",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateEra",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHour",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHourOfDay",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMillisecond",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMinute",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMonth",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateSecond",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfMonth",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfYear",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateYear",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateZoneOffset",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "days",
+    "params": [
+      "DayNumber"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "duration",
+    "params": [
+      "StartDate",
+      "EndDate"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "hours",
+    "params": [
+      "HourNumber"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minutes",
+    "params": [
+      "MinuteNumber"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "nowTime",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "rollupTime",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "weeks",
+    "params": [
+      "WeekNumber"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "abs",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "acos",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asin",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asinh",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan2",
+    "params": [
+      "Value1",
+      "Value2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atanh",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ceil",
+    "params": [
+      "Value",
+      "Precision"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cos",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cosh",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "exp",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "floor",
+    "params": [
+      "Value",
+      "Precision"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "Value",
+      "Min",
+      "Max"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ln",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "log",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rand",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "Value",
+      "Precision"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sin",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sinh",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sqrt",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tan",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tanh",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uniqueKey",
+    "params": [
+      "KeyID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "AttribtueID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "NodeReference",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "NodeReference",
+      "AttribtueID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "currentUser",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "Expression"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "NodeReference",
+      "Expression"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "NodeReference"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "NodeRefList"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "VariantAttributeReference",
+      "VariantExpression",
+      "ValueFrom",
+      "ValueTo",
+      "QueryAttributeReference",
+      "..."
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUser",
+    "params": [
+      "UserID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "AttributeReference",
+      "..."
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "NodeReference",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "NodeRefList",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "thisNode",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "averageQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "averageQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "common",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "common",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "countQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "foreach",
+    "params": [
+      "Variable",
+      "Container",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "maxQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "maxQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "query",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "RefContainer",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "AttributeId",
+      "Expression1",
+      "Expression2",
+      "...",
+      "ExpressionN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sumQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sumQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "WeightAttributePath",
+      "WeightAttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index",
+      "WeightAttributePath",
+      "WeightAttributeID"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "LimitCNLContainer",
+      "QueryXML",
+      "AttributePath",
+      "AttributeID",
+      "Index",
+      "WeightAttributePath",
+      "WeightAttributeID",
+      "WeightIndex"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "StringContainer",
+      "Separator"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "Original",
+      "Looking"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "format",
+    "params": [
+      "formatString",
+      "Parameter0",
+      "Parameter1",
+      "...",
+      "Parameter#"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "Original",
+      "Length"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "length",
+    "params": [
+      "Original"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "Original"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "String",
+      "RegExp"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "String",
+      "RegExp"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "Original",
+      "Search",
+      "Replace"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "Original",
+      "Length"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "String",
+      "Separator"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "substr",
+    "params": [
+      "Original",
+      "Start",
+      "End"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "Original"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "CentricURL"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "MillisecondsSince1970"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "DateFormatedString"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "StringValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "NumberValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "EnumType",
+      "EnumValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "EnumString"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumName",
+    "params": [
+      "Enumeration"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumValue",
+    "params": [
+      "Enumeration"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "StringValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "NumberValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "StringValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "NumberValue"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "Value",
+      "Type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "ElementType"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "Element0",
+      "Element1",
+      "...",
+      "ElementN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "Container0",
+      "Container1",
+      "...",
+      "ContainerN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "ElementType"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "KeyString0",
+      "Element0",
+      "KeyString1",
+      "Element1",
+      "...",
+      "KeyStringN",
+      "ElementN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "Map0",
+      "Map1",
+      "...",
+      "MapN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "CentricURL"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "ElementType"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "Element0",
+      "Element1",
+      "...",
+      "ElementN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "Container0",
+      "Container1",
+      "...",
+      "ContainerN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "Value"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "ElementType"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "Element0",
+      "Element1",
+      "...",
+      "ElementN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "Container0",
+      "Container1",
+      "...",
+      "ContainerN"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "add",
+    "params": [
+      "see \npage 36"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "catch",
+    "params": [
+      "see \npage 45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "addDuration",
+    "params": [
+      "see page 51"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "abs",
+    "params": [
+      "see \npage 64"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "see page \n78"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "see \npage 99"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "see page \n149"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "see \npage 157"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "at",
+    "params": [
+      "see \npage 37"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "see \npage 45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateAmPm",
+    "params": [
+      "see page 52"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "acos",
+    "params": [
+      "see \npage 65"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "see page 80"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "averageQuery",
+    "params": [
+      "see page 102"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "see \npage 149"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "see \npage 158"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "contains",
+    "params": [
+      "see page \n37"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "see page \n47"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDate",
+    "params": [
+      "see \npage 52"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asin",
+    "params": [
+      "see \npage 65"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "currentUser",
+    "params": [
+      "see page 83"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "see page \n105"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "format",
+    "params": [
+      "see \npage 150"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "see page \n158"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "first",
+    "params": [
+      "see \npage 38"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "see \npage 48"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDay",
+    "params": [
+      "see \npage 53"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asinh",
+    "params": [
+      "see \npage 66"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "see page \n83"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "common",
+    "params": [
+      "see \npage 107"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "see \npage 151"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "see \npage 159"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "indexOf",
+    "params": [
+      "see page \n38"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNu",
+    "params": [
+      "see \npage 48"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ar",
+    "params": [
+      "see page 53"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan",
+    "params": [
+      "see \npage 66"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "es",
+    "params": [
+      "see page \n85"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "countQuery",
+    "params": [
+      "see page 109"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "length",
+    "params": [
+      "see \npage 151"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "me",
+    "params": [
+      "see \npage 160"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isEmpty",
+    "params": [
+      "see page \n39"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "throw",
+    "params": [
+      "see \npage 49"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "et",
+    "params": [
+      "see page 54"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan2",
+    "params": [
+      "see \npage 67"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "see page 88"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "see \npage 111"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "see page \n152"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "e",
+    "params": [
+      "see page \n160"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "keys",
+    "params": [
+      "see \npage 39"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "while",
+    "params": [
+      "see \npage 49"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateEra",
+    "params": [
+      "see \npage 54"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atanh",
+    "params": [
+      "see \npage 68"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUser",
+    "params": [
+      "see \npage 91"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "see page \n114"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "see page \n152"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "see \npage 161"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "last",
+    "params": [
+      "see \npage 40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHour",
+    "params": [
+      "see \npage 55"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ceil",
+    "params": [
+      "see \npage 68"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "see page 91"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "foreach",
+    "params": [
+      "see \npage 116"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "see page \n153"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "see page \n161"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "order",
+    "params": [
+      "see \npage 40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Day",
+    "params": [
+      "see page \n55"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cos",
+    "params": [
+      "see \npage 69"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "s",
+    "params": [
+      "see page 93"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "see page \n117"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "see \npage 153"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "see \npage 162"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "see \npage 42"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ond",
+    "params": [
+      "see page \n56"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cosh",
+    "params": [
+      "see \npage 69"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "thisNode",
+    "params": [
+      "see page 96"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "see page \n119"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "see \npage 154"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "see page \n163"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "size",
+    "params": [
+      "see \npage 43"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMinute",
+    "params": [
+      "see page 56"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "exp",
+    "params": [
+      "see \npage 70"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "see page \n121"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "see \npage 154"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "see \npage 164"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "see page \n43"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMonth",
+    "params": [
+      "see page 57"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "floor",
+    "params": [
+      "see \npage 70"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "maxQuery",
+    "params": [
+      "see \npage 124"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "substr",
+    "params": [
+      "see \npage 155"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "see \npage 165"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateSecond",
+    "params": [
+      "see page 57"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "see page \n71"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "see page \n127"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "see page \n156"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "see \npage 166"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Month",
+    "params": [
+      "see \npage 58"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ln",
+    "params": [
+      "see page \n72"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minQuery",
+    "params": [
+      "see \npage 129"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "see \npage 166"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Year",
+    "params": [
+      "see page \n58"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "log",
+    "params": [
+      "see \npage 72"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "see page \n133"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "see \npage 167"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateYear",
+    "params": [
+      "see \npage 59"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rand",
+    "params": [
+      "see \npage 73"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "query",
+    "params": [
+      "see page \n135"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "see \npage 168"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "see page \n59"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "see \npage 73"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "see page \n138"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "days",
+    "params": [
+      "see page \n60"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sin",
+    "params": [
+      "see \npage 74"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sumQuery",
+    "params": [
+      "see \npage 140"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "duration",
+    "params": [
+      "see \npage 60"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sinh",
+    "params": [
+      "see \npage 75"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ageQuery",
+    "params": [
+      "see \npage 144"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "hours",
+    "params": [
+      "see \npage 61"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sqrt",
+    "params": [
+      "see \npage 75"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minutes",
+    "params": [
+      "see \npage 61"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tan",
+    "params": [
+      "see \npage 76"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "nowTime",
+    "params": [
+      "see \npage 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tanh",
+    "params": [
+      "see \npage 76"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rollupTime",
+    "params": [
+      "see page 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "y",
+    "params": [
+      "see page \n77"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weeks",
+    "params": [
+      "see \npage 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "028",
+    "params": [
+      "Open \nparenthesis (or \nopen bracket"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parenthesis",
+    "params": [
+      "or \nclose bracket"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Hierarchical",
+    "params": [
+      "All in memory"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Hierarchical",
+    "params": [
+      "2 Phase"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Dependees",
+    "params": [
+      "All"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "add",
+    "params": [
+      "see page 36"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "at",
+    "params": [
+      "see page 37"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "contains",
+    "params": [
+      "see page 37"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "first",
+    "params": [
+      "see page 38"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "indexOf",
+    "params": [
+      "see page 38"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isEmpty",
+    "params": [
+      "see page 39"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "keys",
+    "params": [
+      "see page 39"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "last",
+    "params": [
+      "see page 40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "order",
+    "params": [
+      "see page 40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "see page 42"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "size",
+    "params": [
+      "see page 43"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "see page 43"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "1.0",
+      "2.0",
+      "3.0",
+      "4.0",
+      "5.0",
+      "6.0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "at",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "contains",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "contains",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "first",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "indexOf",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "indexOf",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isEmpty",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "\"A\"",
+      "1",
+      "\"B\"",
+      "2",
+      "\"C\"",
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "last",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"order( ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"order( ValueContainer"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"order( RefContainer",
+      "Expression"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "1",
+      "11",
+      "2",
+      "33",
+      "7",
+      "25",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "range",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "size",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "array(1",
+      "2",
+      "3",
+      "2",
+      "1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "array(\"aaa\"",
+      "\"bbb\"",
+      "\"ccc\"",
+      "\"bbb\"",
+      "\"aaa\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "unique",
+    "params": [
+      "array(ref(\"centric://aaa\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://bbb\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://ccc\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://bbb\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://aaa\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "catch",
+    "params": [
+      "see page 45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "see page 45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "see page 47"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "see page 48"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNull",
+    "params": [
+      "see page 48"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "throw",
+    "params": [
+      "see page 49"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "while",
+    "params": [
+      "see page 49"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "catch",
+    "params": [
+      "eval(\"sdd;\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "error!=\"Ha Ha\"",
+      "\"Some Error\"",
+      "\"Ha Ha\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyAttr\"",
+      "new Double(0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyNull\"",
+      "null"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"Bool\"",
+      "Boolean.TRUE"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"z\"",
+      "8"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"List\"",
+      "new Vector.Value<Integer>(Integer.class",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Integer",
+    "params": [
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"check ( Condition",
+      "CaseNegative",
+      "CaseZero",
+      "CasePositive"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"check ( Condition",
+      "CaseNegative",
+      "CaseZero",
+      "CasePositive"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"check ( Condition",
+      "CaseNegative",
+      "CaseZero",
+      "CasePositive"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "1",
+      "\"abcdefg\"",
+      "5",
+      "nowTime("
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "attr(\"MyAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "check",
+    "params": [
+      "attr(\"MyAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyAttr\"",
+      "new Double(0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyNull\"",
+      "null"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"Bool\"",
+      "Boolean.TRUE"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"z\"",
+      "8"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"List\"",
+      "new Vector.Value<Integer>(Integer.class",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Integer",
+    "params": [
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"if ( Condition",
+      "CaseTrue",
+      "CaseFalse"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setExpressionTest",
+    "params": [
+      "in",
+      "\"if ( Condition",
+      "CaseTrue",
+      "CaseFalse"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "1 < 2",
+      "\"abcdefg\"",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "attr(\"MyAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "measure(\"2m\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "2/0",
+      "\"Error\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNaN",
+    "params": [
+      "ref(\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNull",
+    "params": [
+      "measure(\"2m\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNull",
+    "params": [
+      "NotExistingAttribute",
+      "dummy"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ifNull",
+    "params": [
+      "ref(\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "catch",
+    "params": [
+      "throw(\"Ha Ha\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "if",
+    "params": [
+      "error==\"Ha Ha\"",
+      "\"Gotcha\"",
+      "\"Some Error\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "n = 8",
+      "while(n > 2",
+      "n = n - 1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "addDuration",
+    "params": [
+      "see page 51"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateAmPm",
+    "params": [
+      "see page 52"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDate",
+    "params": [
+      "see page 52"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDay",
+    "params": [
+      "see page 53"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDayOfYear",
+    "params": [
+      "see page 53"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDSTOffset",
+    "params": [
+      "see page 54"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateEra",
+    "params": [
+      "see page 54"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHour",
+    "params": [
+      "see page 55"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHourOfDay",
+    "params": [
+      "see page 55"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMillisecond",
+    "params": [
+      "see page 56"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMinute",
+    "params": [
+      "see page 56"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMonth",
+    "params": [
+      "see page 57"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateSecond",
+    "params": [
+      "see page 57"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfMonth",
+    "params": [
+      "see page 58"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfYear",
+    "params": [
+      "see page 58"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateYear",
+    "params": [
+      "see page 59"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateZoneOffset",
+    "params": [
+      "see page 59"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "days",
+    "params": [
+      "see page 60"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "duration",
+    "params": [
+      "see page 60"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "hours",
+    "params": [
+      "see page 61"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minutes",
+    "params": [
+      "see page 61"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "nowTime",
+    "params": [
+      "see page 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rollupTime",
+    "params": [
+      "see page 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weeks",
+    "params": [
+      "see page 62"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "addDuration",
+    "params": [
+      "date(\\\"Jun 5",
+      "2006 3:55:46 PM PDT\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "addDuration",
+    "params": [
+      "date(\\\"Jun 5",
+      "2006 3:55:46 PM PDT\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateAmPm",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDate",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDay",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDayOfYear",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateDSTOffset",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateEra",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHour",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateHourOfDay",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMillisecond",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMinute",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateMonth",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateSecond",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfMonth",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateWeekOfYear",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateYear",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "dateZoneOffset",
+    "params": [
+      "date(\"May 2",
+      "2006 3:55:46 PM\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "days",
+    "params": [
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "duration",
+    "params": [
+      "date(\\\"Jun 5",
+      "2006 3:55:46 PM PDT\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "duration",
+    "params": [
+      "date(\\\"Jun 5",
+      "2006 3:55:46 PM PDT\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "hours",
+    "params": [
+      "4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minutes",
+    "params": [
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "nowTime",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "rollupTime",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "weeks",
+    "params": [
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "abs",
+    "params": [
+      "see page 64"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "acos",
+    "params": [
+      "see page 65"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asin",
+    "params": [
+      "see page 65"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asinh",
+    "params": [
+      "see page 66"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan",
+    "params": [
+      "see page 66"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan2",
+    "params": [
+      "see page 67"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atanh",
+    "params": [
+      "see page 68"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ceil",
+    "params": [
+      "see page 68"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cos",
+    "params": [
+      "see page 69"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cosh",
+    "params": [
+      "see page 69"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "exp",
+    "params": [
+      "see page 70"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "floor",
+    "params": [
+      "see page 70"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "see page 71"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ln",
+    "params": [
+      "see page 72"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "log",
+    "params": [
+      "see page 72"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rand",
+    "params": [
+      "see page 73"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "see page 73"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sin",
+    "params": [
+      "see page 74"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sinh",
+    "params": [
+      "see page 75"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sqrt",
+    "params": [
+      "see page 75"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tan",
+    "params": [
+      "see page 76"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tanh",
+    "params": [
+      "see page 76"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uniqueKey",
+    "params": [
+      "see page 77"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "abs",
+    "params": [
+      "23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "abs",
+    "params": [
+      "-15.1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "acos",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asin",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "asinh",
+    "params": [
+      "23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atan2",
+    "params": [
+      "23",
+      "45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "atanh",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ceil",
+    "params": [
+      "4.55",
+      "0.25"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ceil",
+    "params": [
+      "4.55"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cos",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cosh",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "exp",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "floor",
+    "params": [
+      "44.5",
+      "0.25"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "floor",
+    "params": [
+      "44.5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "1.0",
+      "23.0",
+      "50.0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "nowTime("
+    ],
+    "desc": ""
+  },
+  {
+    "name": "inRange",
+    "params": [
+      "measure(\"100m\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ln",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "log",
+    "params": [
+      "10.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rand",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "123.45"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "measure(\"123.45m\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "round",
+    "params": [
+      "measure(123.45",
+      "\"mps\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sin",
+    "params": [
+      "0.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sinh",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sqrt",
+    "params": [
+      "16"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tan",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "tanh",
+    "params": [
+      "1.23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uniqueKey",
+    "params": [
+      "\"YG_ID\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uniqueKey",
+    "params": [
+      "\"YG_ID\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "see page 78"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "see page 80"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "currentUser",
+    "params": [
+      "see page 83"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "see page 83"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "see page 85"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "see page 88"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUser",
+    "params": [
+      "see page 91"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "see page 91"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "see page 93"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "thisNode",
+    "params": [
+      "see page 96"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "\"MyAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "at(attr(\"MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attr",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "\"MyAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "attrExists",
+    "params": [
+      "at(attr(\"MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "currentUser",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "\"1 + \" + attr(\"Expr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "eval",
+    "params": [
+      "attr(\"Other\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "array",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child44\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "existingNodes",
+    "params": [
+      "array(\nref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Child44\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "`Node Name`",
+      "\"Child\"+value",
+      "0",
+      "5",
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "`Node Name`",
+      "\"Child\"+value",
+      "1",
+      "5",
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "`Node Name`",
+      "\"Child\"+value",
+      "1",
+      "5",
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "`Node Name`",
+      "\"Child\"+value",
+      "1",
+      "4",
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUnique",
+    "params": [
+      "`Node Name`",
+      "\"Child\"+value",
+      "1",
+      "3",
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "findUser",
+    "params": [
+      "\"Administrator\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isUnique",
+    "params": [
+      "attr(\"Node Type\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "\"Child\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Parent1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Parent3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "ref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Sibling2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "parentNodes",
+    "params": [
+      "array(\nref(\"centric://UnitTest/ExpressionTest/NodeFunctions.Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Sibling1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Parent1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Parent2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionTest/NodeFunctions.Parent3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyName\"",
+      "\"Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"A\"",
+      "new Double(23"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"MyName\"",
+      "\"Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyName\"",
+      "\"Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"MyAttr\"",
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyName\"",
+      "\"Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"MyAttr\"",
+      "new Integer(2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild1",
+      "inChild2",
+      "inChild3",
+      "inChild4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"MyAttr\"",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Other\"",
+      "inChild1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"Expr\"",
+      "\"attr(\\\"A\\\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"A\"",
+      "new Double(22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inRoot",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild1",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild2",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild3",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inChild4",
+      "\"__Parent__\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"MyChildAttr\"",
+      "new Vector.Value<INode>(INode.class",
+      "inChild2",
+      "inChild3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling1",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inSibling2",
+      "\"NotUnique\"",
+      "\"NotUniqueValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent1",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inRoot",
+      "inSibling1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent2",
+      "\"Child\"",
+      "new Vector.Value<INode>(INode.class",
+      "inSibling1",
+      "inSibling2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "inParent3",
+      "\"Child\"",
+      "inRoot"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "thisNode",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "see page 99"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "averageQuery",
+    "params": [
+      "see page 102"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "see page 105"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "common",
+    "params": [
+      "see page 107"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "countQuery",
+    "params": [
+      "see page 109"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "see page 111"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "see page 114"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "foreach",
+    "params": [
+      "see page 116"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "see page 117"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "see page 119"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "see page 121"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "maxQuery",
+    "params": [
+      "see page 124"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "see page 127"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "minQuery",
+    "params": [
+      "see page 129"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "see page 133"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "query",
+    "params": [
+      "see page 135"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "see page 138"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sumQuery",
+    "params": [
+      "see page 140"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "see page 144"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "list( 1",
+      "2",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "MyChildAttr",
+      "MyAttr"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "average",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "cnl(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "variable = MyAttr",
+      "filter( MyChildAttr",
+      "MyAttr==variable"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "ref(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "common",
+    "params": [
+      "\"MyChildAttr2\"",
+      "MyRef2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child4/2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "countQuery",
+    "params": [
+      "null",
+      "\"<QUERY><Node Parameter='Type' Op='EQ' Value='ExpressionDBTest'/\n><OrderByNode Parameter='URL' Sequence='ASC' /></QUERY>\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "countQuery",
+    "params": [
+      "list(cnl(\"centric://UnitTest/ExpressionDBType/Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root?Path=Child:MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "list( date(\"Apr 12",
+      "1961\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "MyChildAttr",
+      "MyDate"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "\"MyChildAttr\"",
+      "v = if( isOfType( MyDate",
+      "\"date\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "earliest",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "list( ref(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "MyChildAttr",
+      "MyAttr.ifNaN(0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "filter",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "res=\"\"",
+      "foreach( i",
+      "list(\"a\"",
+      "\"b\"",
+      "\"c\"",
+      "\"d\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "block",
+    "params": [
+      "b = map(ref_type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "foreach",
+    "params": [
+      "item",
+      "list(\"c1\"",
+      "\"c2\"",
+      "\"c3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "list( ref(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "MyChildAttr",
+      "MyRef"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child4/1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Child4/2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=if(isOfType( MyRef",
+      "\"ref\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric:\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "join",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "list( date(\"Apr 12",
+      "1961\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "MyChildAttr",
+      "MyDate"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "\"MyChildAttr\"",
+      "v = if( isOfType( MyDate",
+      "\"date\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "latest",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "list( 1",
+      "2",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "MyChildAttr",
+      "MyAttr"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "max",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "cnl(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root?Path=Child:MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "list( 1",
+      "2",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "MyChildAttr",
+      "MyAttr"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "min",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "cnl(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root?Path=Child:MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "list( 1",
+      "2",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "MyChildAttr",
+      "MyAttr"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "mult",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "query",
+    "params": [
+      "null",
+      "\"<QUERY><Node Parameter='Type' Op='EQ' Value='ExpressionDBTest'/></\nQUERY>\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child4\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "query",
+    "params": [
+      "list(cnl(\"centric://UnitTest/ExpressionDBType/Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root?Path=Child:MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child3\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child4\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "list( 1",
+      "2",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "MyChildAttr",
+      "MyAttr"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "\"MyChildAttr\"",
+      "v=ifNaN( MyAttr",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "sum",
+    "params": [
+      "MyChildAttr",
+      "Unknown"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "cnl(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "cnl(\"centric://UnitTest/Child1\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "/* LimitCNLContainer: */ list(cnl(\"centric://UnitTest/\nExpressionDBType/Child5\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://UnitTest/ExpressionDBType/Root?Path=Child:MyChildAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\"<QUERY><Node Parameter='Type' Op='EQ' \nValue='ExpressionDBTest'/></QUERY>\"",
+      "null",
+      "\"MyAggrVector\"",
+      "2",
+      "null",
+      "\"MyWeightAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\"<QUERY><Node Parameter='Type' Op='EQ' \nValue='ExpressionDBTest'/></QUERY>\"",
+      "null",
+      "\"MyAggrVector\"",
+      "3",
+      "null",
+      "\"MyWeightAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\"<QUERY><Node Parameter='Type' Op='EQ' \nValue='ExpressionDBTest'/></QUERY>\"",
+      "null",
+      "\"MyAggrVector\"",
+      "4",
+      "null",
+      "\"MyWeightAttr\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\\\"<QUERY><Node Parameter='Type' Op='EQ'\nValue='ExpressionDBTest'/></QUERY>\\\"",
+      "null",
+      "\\\"MyAggrVector\\\"",
+      "2",
+      "null",
+      "\\\"MyWeightVector\\\"",
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\\\"<QUERY><Node Parameter='Type' Op='EQ'\nValue='ExpressionDBTest'/></QUERY>\\\"",
+      "null",
+      "\\\"MyAggrVector\\\"",
+      "3",
+      "null",
+      "\\\"MyWeightVector\\\"",
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "weightedAverageQuery",
+    "params": [
+      "null",
+      "\\\"<QUERY><Node Parameter='Type' Op='EQ'\nValue='ExpressionDBTest'/></QUERY>\\\"",
+      "null",
+      "\\\"MyAggrVector\\\"",
+      "4",
+      "null",
+      "\\\"MyWeightVector\\\"",
+      "4"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "see page 149"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "see page 149"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "format",
+    "params": [
+      "see page 150"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "see page 151"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "length",
+    "params": [
+      "see page 151"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "see page 152"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "see page 152"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "see page 153"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "see page 153"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "see page 154"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "see page 154"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "substr",
+    "params": [
+      "see page 155"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "see page 156"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "list(\"a\"",
+      "\"b\"",
+      "\"c\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "list(\"a\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "combine",
+    "params": [
+      "null",
+      "\"",
+      "\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "\"abcdefg\"",
+      "\"abc\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "\"abcdefg\"",
+      "\"cdef\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "find",
+    "params": [
+      "\"abcdefg\"",
+      "\"uncle\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "format",
+    "params": [
+      "\"Prefix{0",
+      "number",
+      "000000}Suffix\"",
+      "22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "format",
+    "params": [
+      "\"The Value is {0",
+      "number",
+      "#.##} that is {1",
+      "number",
+      "00%} of \ntotal.\"",
+      "3.1415",
+      "0.05234"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "\"abcdefg\"",
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "\"abcdefg\"",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "leftstr",
+    "params": [
+      "\"abcdefg\"",
+      "40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "length",
+    "params": [
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "length",
+    "params": [
+      "\"\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "\"AbcDeFg2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "\"hijklmnop\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "lowercase",
+    "params": [
+      "\"\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "\"aaaab\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "\"caaaab\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reContains",
+    "params": [
+      "\"aaaadb\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "\"aaaab\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "\"caaaab\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "reMatch",
+    "params": [
+      "\"aaaadb\"",
+      "\"a+b\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "\"abcdefg\"",
+      "\"cde\"",
+      "\"123\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "\"abcdefgabcdefg\"",
+      "\"cde\"",
+      "\"123\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "replace",
+    "params": [
+      "\"abcdefg\"",
+      "\"uncle\"",
+      "123"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "\"abcdefg\"",
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "\"abcdefg\"",
+      "-1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "rightstr",
+    "params": [
+      "\"abcdefg\"",
+      "40"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "\"a",
+      "b",
+      "c\"",
+      "\"",
+      "\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "list(\"a\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "split",
+    "params": [
+      "null",
+      "\"",
+      "\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "substr",
+    "params": [
+      "\"abcdefg\"",
+      "1",
+      "3"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "substr",
+    "params": [
+      "\"abcdefg\"",
+      "5",
+      "7"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "\"AbcDeFg2\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "\"HIJKLMNOP\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "uppercase",
+    "params": [
+      "\"\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "see page 157"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "see page 158"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "see page 158"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "see page 159"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumName",
+    "params": [
+      "see page 160"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumValue",
+    "params": [
+      "see page 160"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "see page 161"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "see page 161"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "see page 162"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "see page 163"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "see page 164"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "see page 165"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "see page 166"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "see page 166"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "see page 167"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "see page 168"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://SERVER|_CS_NodeStorage/_CS_Part/01234567890\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "cnl",
+    "params": [
+      "\"centric://SERVER|_CS_NodeStorage/_CS_Part/01234567890?Path=Child:Hierarchy\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "double(\"1154055600000\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "date",
+    "params": [
+      "\"Jul 30",
+      "2006 06:00:00 PM PDT\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "\"234.6\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "double",
+    "params": [
+      "22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "\"MyEnum\"",
+      "\"Book\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enum",
+    "params": [
+      "\"MyEnum:DVD\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumName",
+    "params": [
+      "enum(\"MyEnum:DVD\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "enumValue",
+    "params": [
+      "enum(\"MyEnum:DVD\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "\"234.6\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "float",
+    "params": [
+      "22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "\"234\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "integer",
+    "params": [
+      "22.5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyAttr\"",
+      "new Double(0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyNull\"",
+      "null"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"Bool\"",
+      "Boolean.TRUE"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"z\"",
+      "8"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"List\"",
+      "new Vector.Value<Integer>(Integer.class",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Integer",
+    "params": [
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "attr(\"MyNull\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "dummy"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isNull",
+    "params": [
+      "\"abcdefg\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyAttr\"",
+      "new Double(0"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"MyNull\"",
+      "null"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"Bool\"",
+      "Boolean.TRUE"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"z\"",
+      "8"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "setAttribute",
+    "params": [
+      "in",
+      "\"List\"",
+      "new Vector.Value<Integer>(Integer.class",
+      "new Integer(1"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "Integer",
+    "params": [
+      "2"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "attr(\"MyNull\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "attr(\"Bool\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "attr(\"List\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "isOfType",
+    "params": [
+      "attr(\"List\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "ref_type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "list",
+    "params": [
+      "vector(\"a\"",
+      "\"bc\"",
+      "\"def\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "ref_type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "\"1\"",
+      "1",
+      "\"2\"",
+      "2",
+      "\"3\"",
+      "3",
+      "\"4\"",
+      "4",
+      "\"5\"",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "map",
+    "params": [
+      "map(\"a\"",
+      "\"bc\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "ref",
+    "params": [
+      "\"centric://SERVER|_CS_NodeStorage/_CS_Part/01234567890\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "ref_type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "set",
+    "params": [
+      "list(\"a\"",
+      "\"bc\"",
+      "\"def\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "22"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "true"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "string",
+    "params": [
+      "enum(\"EType\"",
+      "\"EValue\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "ref_type"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "desc": ""
+  },
+  {
+    "name": "vector",
+    "params": [
+      "list(\"a\"",
+      "\"bc\"",
+      "\"def\""
+    ],
+    "desc": ""
+  },
+  {
+    "name": "r",
+    "params": [],
+    "desc": ""
+  },
+  {
+    "name": "nowTime",
+    "params": [],
+    "desc": ""
+  }
+]
