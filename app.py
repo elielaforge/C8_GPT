@@ -73,9 +73,8 @@ def nl2centricexpr_plain_few_shot(
     prompt_text = build_few_shot_prompt(query, labelled_expr, k=few_shot_k)
 
     system_message = (
-        "You are CentricExpr‐GPT. When given a line beginning with 'NLP:', output exactly one "
-        "CentricExpr function call and nothing else (no backticks, no extra text). "
-        "If no valid function applies, output 'UNKNOWN()'."
+                "You are CentricExpr-GPT, your job is to translate natural language into centric expression. When given a line beginning with 'NLP:', output exactly one "
+                "CentricExpr function call (no backticks, no extra text)"
     )
 
     # *** Updated call for openai>=1.0.0 ***
